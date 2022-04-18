@@ -9,9 +9,9 @@ public class assinment2 {
 		int len, len1, len2, i, j, found=0, not_found=0;
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print(“Enter First String : “);
+		System.out.println("Enter First String :");
 		str1 = scan.nextLine();
-		System.out.print(“Enter Second String : “);
+		System.out.println("Enter Second String :");
 		str2 = scan.nextLine();
 
 		len1 = str1.length();
@@ -39,16 +39,16 @@ public class assinment2 {
 		}
 		if(not_found == 1)
 		{
-		System.out.print(“Strings are not Anagrams”);
+		System.out.print("Strings are not Anagrams");
 		}
 		else
 		{
-		System.out.print(“Strings are Anagrams”);
+		System.out.print("Strings are Anagram");
 		}
 		}
 		else
 		{
-		System.out.print(“Both Strings Must have the same number of Character to be an Anagram”);
+		System.out.println("Both Strings Must have the same number of Character to be an Anagram");
 		}
 		}
 		}
